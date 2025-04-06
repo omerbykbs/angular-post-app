@@ -1,0 +1,71 @@
+.posts-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    h2 {
+      margin: 0;
+    }
+    
+    button {
+      padding: 8px 16px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      
+      &:disabled {
+        background-color: #95a5a6;
+        cursor: not-allowed;
+      }
+      
+      &:hover:not(:disabled) {
+        background-color: #2980b9;
+      }
+    }
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 20px;
+    color: #3498db;
+  }
+  
+  .error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    button {
+      background-color: #c62828;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      
+      &:hover {
+        background-color: #b71c1c;
+      }
+    }
+  }
+  
+  .no-data {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+    font-style: italic;
+  }

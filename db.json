@@ -1,0 +1,28 @@
+{
+    "posts": [
+      {
+        "img": "./assets/img/pp4.jpeg",
+        "name": "Mehmet",
+        "time": "vor 5 Minuten",
+        "text": "Hello there!"
+      },
+      {
+        "img": "./assets/img/pp1.jpeg",
+        "name": "Mark",
+        "time": "vor 7 Minuten",
+        "text": "Hello there!"
+      },
+      {
+        "img": "./assets/img/pp2.jpeg",
+        "name": "Aljoscha",
+        "time": "vor 10 Minuten",
+        "text": "Guten Tag!"
+      },
+      {
+        "img": "./assets/img/pp3.jpeg",
+        "name": "Timothée",
+        "time": "vor 15 Minuten",
+        "text": "Salut toi!"
+      }
+    ]
+  }
